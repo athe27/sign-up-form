@@ -17,32 +17,32 @@
             Photo by <a href="">Halle West</a> on <a href="">Unsplash</a>
         </div>
     </div>
-    <div>
-        <div>
+    <div class="right-section">
+        <div class="description">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italicize">now</span> to get started.</p>
             <p>You <span class="italicize">know you</span> want to.</p>
         </div>
-        <form>
+        <form id="create-account">
             <fieldset>
                 <h1>Let's do this!</h1>
-                <label for="first-name">First Name</label>
+                <label for="first-name">FIRST NAME</label>
                 <input type="text" id="first-name" name="fname">
-                <label for="last-name">Last Name</label>
+                <label for="last-name">LAST NAME</label>
                 <input type="text" id="last-name" name="lname">
-                <label for="email">Email</label>
+                <label for="email">EMAIL</label>
                 <input type="email" id="email" name="email">
-                <label for="phone-number">Phone Number</label>
+                <label for="phone-number">PHONE NUMBER</label>
                 <input type="tel" id="phone-number" name="p-number">
-                <label for="pwd">Password</label>
+                <label for="pwd">PASSWORD</label>
                 <input type="password" id="pwd" name="pwd">
-                <label for="c-pwd">Confirm Password</label>
+                <label for="c-pwd">CONFIRM PASSWORD</label>
                 <input type="password" id="c-pwd" name="c-pwd">
             </fieldset>
-            <div>
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
-            </div>
         </form>
+        <div class="bottom-section">
+            <button class="create-button" form="create-account" type="submit">Create Account</button>
+            <p>Already have an account? <a class="login" href="">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>

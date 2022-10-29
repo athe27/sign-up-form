@@ -58,3 +58,61 @@ body {
     text-align: center;
     color: white;
 }
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 143px;
+    gap: 40px;
+}
+
+.description, .bottom-section, h1 {
+    margin: 0 15% 5px 30px;
+}
+.description {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+fieldset {
+    padding: 0;
+    margin:0;
+    border: 0;
+    background-color: #fffffd;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.267);
+}
+
+.create-button {
+    background-color: #596D48;
+    color:white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.bottom-section {
+    font-size: 1rem;
+}
+
+.login {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label {
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
