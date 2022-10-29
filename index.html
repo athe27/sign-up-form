@@ -4,30 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <p>You know you want to.</p>
+    <div class="sidebar">
+        <div class="overlay">
+            <img class="logo" src="./assets/logo.png" alt="logo">
+            <div class="logo-text">ODIN</div>
+        </div>
+        <div class="footer">
+            Photo by <a href="">Halle West</a> on <a href="">Unsplash</a>
+        </div>
     </div>
-    <form>
-        <fieldset>
-            <legend>Let's do this!</legend>
-
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="fname">
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" name="lname">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" id="phone-number" name="p-number">
-            <label for="pwd">Password</label>
-            <input type="password" id="pwd" name="pwd">
-            <label for="c-pwd">Confirm Password</label>
-            <input type="password" id="c-pwd" name="c-pwd">
-        </fieldset>
-    </form>
+    <div>
+        <div>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italicize">now</span> to get started.</p>
+            <p>You <span class="italicize">know you</span> want to.</p>
+        </div>
+        <form>
+            <fieldset>
+                <h1>Let's do this!</h1>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="fname">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="lname">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="p-number">
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" name="pwd">
+                <label for="c-pwd">Confirm Password</label>
+                <input type="password" id="c-pwd" name="c-pwd">
+            </fieldset>
+            <div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
